@@ -18,4 +18,4 @@ you have it and the Fabric API jar files in your mods folder.
 
 ## License
 
-This mod is available under the BSD-3-Clause [[LICENSE]]
+This mod is available under the BSD-3-Clause [LICENSE](LICENSE)

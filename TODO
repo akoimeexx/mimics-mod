@@ -1,0 +1,24 @@
+~~Wild Mimic has following stats: 20 health, deals 10 hearts of damage on attack, 50% knockback resist~~
+(10 hearts damage seems.... awful. Might need rebalancing)
+~~Wild Mimic needs natural armor equiv. to leather ~~
+(To be determined, current attack values offset necessity for armor, IMO)
+
+~~Wild Mimic should lie in wait rendered as an actual ChestBlockEntity~~
+~~ChestBlockEntity-rendered Wild Mimic should "transform back" when a player attempts to open it.~~
+(These two items have been superceded by how wild mimics spawn)
+
+~~Wild Mimic eats player items if killed player~~
+~~Killing one drops a mimic core, 15 xp~~
+~~Mimic heart + 8 planks crafted to make a Tamed Mimic Item.~~
+
+~~Spawn in place of other chests that have a loot table assigned, with deathloottable expanded to include roll from originating chest~~
+(This has been superceded by adding in 1/8 chance of spawn from attempting to open a loot table'd chest instead)
+
+~~Tamed Mimic Item spawns Tamed Mimic on use~~
+~~First-spawned Tamed Mimic imprints on user as its owner~~
+~~Tamed Mimic should help with item collection~~
+~~Tamed Mimic should help with item disposal~~
+~~Tamed Mimic item disposal should "feed" Mimic to increase storage tiers: Stone > iron > gold > diamond > netherite~~
+
+
+Animations

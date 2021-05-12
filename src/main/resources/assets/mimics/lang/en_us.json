@@ -1,0 +1,10 @@
+{
+    "entity.mimics.mimic": "Mimic",
+
+    "item.mimics.mimic": "Mimic",
+    "item.mimics.mimic_core": "Mimic Core",
+    "item.mimics.mimic_spawn_egg": "Mimic Spawn Egg",
+
+    "inventory.mimics.food_slot.tooltip": "Mimic Food"
+
+}

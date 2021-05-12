@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.akoimeexx.mimics.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LootableAccessorMixin",
+    "CatGoalsMixin",
+    "MimicChestMixin"
+  ],
+  "client": [
+    "MimicsMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

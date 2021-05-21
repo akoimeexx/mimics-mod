@@ -3,7 +3,7 @@
 Mimics introduces a new mob to the game, called the Mimic. These sly creatures 
 masquerade as chests in the world, and will attack any player that tries to 
 open them. Be wary, they pack a mean bite and can fell a woefully unprepared 
-adventuer in one hit if they're lucky.
+adventurer in one hit if they're lucky.
 
 But Mimics aren't all that terrible... if you do manage to subdue one of these 
 strange monsters, you will receive any loot the mimic has picked up along with 

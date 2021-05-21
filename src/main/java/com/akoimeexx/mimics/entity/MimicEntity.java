@@ -17,6 +17,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.ai.Durations;
+import net.minecraft.entity.ai.goal.AttackWithOwnerGoal;
 import net.minecraft.entity.ai.goal.EscapeDangerGoal;
 import net.minecraft.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.entity.ai.goal.FollowTargetGoal;
@@ -88,7 +89,7 @@ public class MimicEntity
     protected void initDataTracker() {
         super.initDataTracker();
         this.dataTracker.startTracking(ANGER_TIME, 0);
-        this.dataTracker.startTracking(FOOD_ITEM, null);
+        this.dataTracker.startTracking(FOOD_ITEM, "");
         this.dataTracker.startTracking(TIER, 1);
         this.dataTracker.startTracking(EXPERIENCE, 0);
     }
@@ -110,7 +111,7 @@ public class MimicEntity
         this.goalSelector.add(10, new LookAroundGoal(this));
 
         this.targetSelector.add(1, new TrackOwnerAttackerGoal(this));
-        //this.targetSelector.add(2, new AttackWithOwnerGoal(this));
+        this.targetSelector.add(2, new AttackWithOwnerGoal(this));
         this.targetSelector.add(
             2, new FollowTargetGoal<PlayerEntity>(
                 this, PlayerEntity.class, 10, true, false, this::shouldAngerAt
@@ -296,7 +297,7 @@ public class MimicEntity
     public void setFoodItem(@Nullable String id) {
         this.dataTracker.set(
            FOOD_ITEM, 
-           (id != null && id.trim() != "") ? id : null
+           (id != null && id.trim() != "") ? id : ""
         );
     }
 
